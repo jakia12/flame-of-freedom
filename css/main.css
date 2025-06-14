@@ -759,9 +759,9 @@ h2 {
 }
 
 .tokenomics__inner {
-  background: #f6b93b;
-  /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
-    url(../img.jpg), #59ee42dd; */
+  /* background: #f6b93b; */
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(../tok.png), #59ee42dd;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
