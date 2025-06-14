@@ -128,6 +128,11 @@ table {
   border-spacing: 0;
 }
 
+/* @font-face {
+  font-family: "Futurama";
+  src: url("../fonts/fr-bold.ttf");
+} */
+
 @font-face {
   font-family: "Burger Free";
   font-style: normal;
@@ -152,7 +157,7 @@ table {
 
 html,
 body {
-  font-family: "Burger Free", system-ui;
+  font-family: "Burger Free";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -295,7 +300,8 @@ h2 {
   top: 0;
   width: 100%;
   padding: 25px 0;
-  background: #feca57;
+  /* background: #feca57; */
+  background: transparent;
 }
 
 @media screen and (max-width: 1023.98px) {
@@ -474,7 +480,7 @@ h2 {
 .hero {
   /*	background-image: url(../images/hero-background.png) ;*/
 
-  padding: 200px 0;
+  padding: 125px 0;
   position: relative;
   /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
     url("../bg.jpg"); */
@@ -499,7 +505,7 @@ h2 {
   gap: 60px;
   align-items: center;
   max-width: 1280px;
-  margin-top: 6%;
+  /* margin-top: 6%; */
   /* margin-bottom: 3%; */
 }
 
@@ -760,8 +766,8 @@ h2 {
 
 .tokenomics__inner {
   /* background: #f6b93b; */
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
-    url(../tok.png), #59ee42dd;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(../tok.png), #59ee42dd; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1023,7 +1029,8 @@ h2 {
 .footer {
   padding: 50px 0;
   /* background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('../grass.png'), rgba(255, 238, 0, 0.371); */
-  background: #fc6206;
+  /* background: #fc6206; */
+  background: transparent;
 }
 
 .footer__container {
